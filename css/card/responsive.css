@@ -30,6 +30,6 @@
   .card__button {
     font-size: 3rem;
     height: 8rem;
-    border-radius: 60px;
+    border-radius: 60px; /**/
   }
 }
