@@ -6,7 +6,30 @@
 
   .card__item {
     width: 90%;
-    height: 700px;
+    height: 1100px;
     margin: auto;
+  }
+
+  .card__content {
+    padding: 8rem 8rem 0 8rem;
+  }
+
+  .card__title {
+    font-size: 6rem;
+  }
+
+  .card__description {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  .card__icon {
+    width: 150px;
+  }
+
+  .card__button {
+    font-size: 3rem;
+    height: 8rem;
+    border-radius: 60px;
   }
 }
