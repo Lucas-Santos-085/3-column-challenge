@@ -1,0 +1,100 @@
+.container {
+  width: 940px;
+  margin: 10% auto;
+}
+
+.container__cards {
+  display: flex;
+}
+
+.card__item {
+  width: 33%;
+  height: 500px;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  align-items: left;
+  padding-top: 2.5rem;
+  padding-right: 3.5rem;
+  padding-left: 2.5rem;
+}
+
+.card__sedans {
+  background: #e28625;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.card__suvs {
+  background: #006971;
+  border-radius: 8px;
+}
+
+.luxury {
+  background: #004140;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.card__title {
+  color: #f2f2f2;
+  font-family: Big Shoulders Display, cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+.card__description {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-bottom: 1.5rem;
+}
+
+.card__icon {
+  width: 64px;
+}
+
+.card__button {
+  text-transform: capitalize;
+  font-family: Lexend Deca;
+  border-radius: 30px;
+  background: F2F2F2;
+  height: 48px;
+  width: 70%;
+  font-size: 1rem;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.button--sedans {
+  color: #e28625;
+}
+
+.button--suvs {
+  color: #006971;
+}
+
+.button--luxury {
+  color: #004140;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
