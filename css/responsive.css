@@ -32,4 +32,16 @@
     height: 8rem;
     border-radius: 60px; /**/
   }
+
+  .card__sedans {
+    border-radius: 18px 18px 0px 0px;
+  }
+
+  .card__suvs {
+    border-radius: 18px;
+  }
+
+  .luxury {
+    border-radius: 0px 0px 18px 18px;
+  }
 }

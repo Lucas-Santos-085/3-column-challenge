@@ -1,6 +1,6 @@
 .container {
-  width: 940px;
   margin: 10% auto;
+  width: 940px;
 }
 
 .container__cards {
@@ -8,19 +8,18 @@
 }
 
 .card__item {
-  width: 33%;
   height: 500px;
+  width: 33%;
 }
 
 .card__content {
+  align-items: left;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 90%;
-  align-items: left;
-  padding-top: 2.5rem;
-  padding-right: 3.5rem;
-  padding-left: 2.5rem;
+  justify-content: space-between;
+
+  padding: 2.5rem 3.5rem 0 2.5rem;
 }
 
 .card__sedans {
@@ -45,7 +44,6 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 48px;
-  /* identical to box height */
   text-transform: uppercase;
 }
 
@@ -55,7 +53,6 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
-  /* or 167% */
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.75;
@@ -91,7 +88,7 @@
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 15px;
   text-align: center;
 }
 
